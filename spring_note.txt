@@ -1,0 +1,18 @@
+建置 JAR 檔案
+在專案根目錄下執行（假設你用 Maven）：
+./mvnw clean package
+這會在 target/ 產生一個 .jar 檔案。
+
+
+spring boot 打包
+docker build -t demo2-app .
+
+spring boot + mysql 打包
+docker-compose down -v
+down -v 會移除所有 container 和 volume，資料庫資料會被清空。
+
+docker-compose up --build
+
+執行flutter
+Flutter run
+
