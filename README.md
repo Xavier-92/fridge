@@ -37,6 +37,7 @@ spring-demo/
 - Maven 3.6+
 - Docker & Docker Compose
 - Flutter 3.x
+- 視開發裝置需求，需加入如Xcode(iOS)等各大載體之模擬器
 
 ---
 
@@ -87,6 +88,7 @@ flutter run -d chrome
 ## 其他說明
 - 若需自訂資料庫連線，請修改 `demo2/src/main/resources/application.properties`。
 - Flutter 專案支援多平台，請依需求選擇目標裝置。
+- 可以將Docker部署至線上平台，以節省本地架設資源
 
 ---
 
